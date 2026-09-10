@@ -1,0 +1,3 @@
+module.exports=[33290,a=>{"use strict";var b=a.i(7997);a.s(["default",0,function({children:a}){return(0,b.jsx)("html",{lang:"fr",style:{scrollBehavior:"smooth"},children:(0,b.jsx)("body",{children:a})})},"metadata",0,{title:"Jad Lamtaifi — Full-Stack Developer",description:"Portfolio de Jad Lamtaifi, développeur full-stack basé à Casablanca. Sites web, e-commerce et applications modernes."}])},70864,function(a){a.n(a.i(33290))}];
+
+//# sourceMappingURL=app_layout_tsx_2144vk_._.js.map

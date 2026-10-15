@@ -46,6 +46,17 @@ const projects: Project[] = [
   },
   {
     number: "02",
+    name: "Fiorella",
+    category: "E-commerce — Maroquinerie",
+    description:
+      "Boutique en ligne de sacs et accessoires pour femme en cuir véritable, sélectionnés auprès d'ateliers spécialisés en Italie.",
+    stack: ["Shopify", "E-commerce"],
+    url: "https://fiorella-leatherbags.com/",
+    domain: "fiorella-leatherbags.com",
+    screenshot: "/screenshots/fiorella.jpg",
+  },
+  {
+    number: "03",
     name: "Couronne Urban",
     category: "Menuiserie & Décoration",
     description:
@@ -56,7 +67,7 @@ const projects: Project[] = [
     screenshot: "/screenshots/couronne-urban.png",
   },
   {
-    number: "03",
+    number: "04",
     name: "Atelier Nord",
     category: "Architecture Intérieure",
     description:
@@ -67,7 +78,7 @@ const projects: Project[] = [
     screenshot: "/screenshots/atelier-nord.png",
   },
   {
-    number: "04",
+    number: "05",
     name: "Anass Laalili",
     category: "Peinture & Rénovation",
     description:
@@ -78,7 +89,7 @@ const projects: Project[] = [
     screenshot: "/screenshots/anass-laalili.png",
   },
   {
-    number: "05",
+    number: "06",
     name: "MCP Yassine",
     category: "Cabinet d'Architecture",
     description:
@@ -89,7 +100,7 @@ const projects: Project[] = [
     screenshot: "/screenshots/mcp-yassine.png",
   },
   {
-    number: "06",
+    number: "07",
     name: "CAN 2025",
     category: "Billetterie Sportive",
     description:
@@ -100,7 +111,7 @@ const projects: Project[] = [
     screenshot: "/screenshots/can-2025.png",
   },
   {
-    number: "07",
+    number: "08",
     name: "DXN Maroc",
     category: "E-commerce Bien-être",
     description:
@@ -464,41 +475,48 @@ export default function Home() {
                 </div>
               </Reveal>
 
-              {/* Row 2 — Couronne Urban (full) */}
+              {/* Row 2 — Fiorella (full) */}
               <Reveal>
                 <div className="project-row full">
                   <BrowserWindow project={projects[1]} />
                 </div>
               </Reveal>
 
-              {/* Row 3 — Atelier Nord (full) */}
+              {/* Row 3 — Couronne Urban (full) */}
               <Reveal>
                 <div className="project-row full">
                   <BrowserWindow project={projects[2]} />
                 </div>
               </Reveal>
 
-              {/* Row 4 — Anass Laalili + MCP Yassine (split) */}
-              <div className="project-row split">
-                <Reveal>
-                  <BrowserWindow project={projects[3]} />
-                </Reveal>
-                <Reveal delay={0.15}>
-                  <BrowserWindow project={projects[4]} />
-                </Reveal>
-              </div>
-
-              {/* Row 5 — CAN 2025 (full) */}
+              {/* Row 4 — Atelier Nord (full) */}
               <Reveal>
                 <div className="project-row full">
-                  <BrowserWindow project={projects[5]} />
+                  <BrowserWindow project={projects[3]} />
                 </div>
               </Reveal>
 
-              {/* Row 6 — DXN Maroc (full) */}
+              {/* Row 5 — Anass Laalili + MCP Yassine (split) */}
+              <div className="project-row split">
+                <Reveal>
+                  <BrowserWindow project={projects[4]} />
+                </Reveal>
+                <Reveal delay={0.15}>
+                  <BrowserWindow project={projects[5]} />
+                </Reveal>
+              </div>
+
+              {/* Row 6 — CAN 2025 (full) */}
               <Reveal>
                 <div className="project-row full">
                   <BrowserWindow project={projects[6]} />
+                </div>
+              </Reveal>
+
+              {/* Row 7 — DXN Maroc (full) */}
+              <Reveal>
+                <div className="project-row full">
+                  <BrowserWindow project={projects[7]} />
                 </div>
               </Reveal>
             </div>
